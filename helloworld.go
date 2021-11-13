@@ -27,4 +27,6 @@ func main() {
 	variable_hello = "hello"
 	variable_world = "world"
 	fmt.Println(strings.Title(variable_hello), strings.Title(variable_world), "!!!")
+	var variable_bool bool
+	fmt.Println(variable_bool)
 }
