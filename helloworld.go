@@ -1,6 +1,12 @@
 package main
-import "fmt"
+
+import (
+	"fmt"
+	"math"
+	"strings"
+)
 
 func main() {
-	fmt.Println("helloworold")
+	fmt.Println(math.Floor(2.75))
+	fmt.Println(strings.Title("helloworld!!!"))
 }
