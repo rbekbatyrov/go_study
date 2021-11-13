@@ -8,5 +8,7 @@ import (
 
 func main() {
 	fmt.Println(math.Floor(2.75))
-	fmt.Println(strings.Title("helloworld!!!"))
+	fmt.Println(strings.Title("hello \n\tworld!!!"))
+	fmt.Println("\"\"")
+	fmt.Println("\\")
 }
